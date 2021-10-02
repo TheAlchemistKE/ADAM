@@ -61,13 +61,13 @@ def find_parent(pid: str):
         # print('find_parent', e)
         return False
 
-def sql_insert_replace():
+def sql_insert_replace(cid, pid, data, body, subred, created, score):
     pass
 
-def sql_insert_has_parent():
+def sql_insert_has_parent(cid, pid, data, body, subred, created, score):
     pass
 
-def sql_insert_no_parent():
+def sql_insert_no_parent(cid, pid, body, subred, created, score):
     pass
 
 
