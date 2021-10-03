@@ -4,10 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-tensorflow = "*"
 numpy = "*"
 pandas = "*"
 scikit-learn = "*"
+tqdm = "*"
+colorama = "*"
+regex = "*"
+python-Levenshtein = "*"
+requests = "*"
+tensorflow = "*"
 
 [dev-packages]
 
